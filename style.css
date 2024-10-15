@@ -26,14 +26,34 @@ h1{
 } 
 
 #header{
-    background-color: rgb(255, 255, 255);
-    height: 100dvh;
+    background-color: white;
 }
-
+.p-about
+{
+    font-size: 10px
+}
 .header-container{
     margin-top: 25vh;
     background-color: white;
 }
+
+#projects{
+    margin-top: 20vh;
+}
+
+.p-card{
+    padding-left: 15px;
+}
+
+.img-hover:hover{
+    background-color: rgb(136, 211, 255);
+}
+.a-projects{
+    text-decoration: none; 
+    color: black;
+}
+
+
 #footer{
     background-color: #ffffff;
     margin-top: 20vh;
@@ -55,4 +75,7 @@ body{
 
 .hr-e{
     width: 98%;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
